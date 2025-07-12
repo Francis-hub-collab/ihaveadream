@@ -1,0 +1,196 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+/* Basic Reset & Body Styling */
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    flex-grow: 1;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 5px solid #3498db;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+h2 {
+    color: #2980b9;
+    border-bottom: 3px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    font-size: 2em;
+}
+
+h3 {
+    color: #34495e;
+    margin-top: 30px;
+    font-size: 1.6em;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+strong {
+    color: #e74c3c;
+}
+
+.feynman-tip {
+    font-style: italic;
+    color: #27ae60;
+    font-weight: bold;
+    background-color: #e8f6f0;
+    padding: 10px 15px;
+    border-left: 5px solid #2ecc71;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+}
+
+table thead tr {
+    background-color: #3498db;
+    color: #ffffff;
+    text-align: left;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #3498db;
+}
+
+/* Worksheet Specifics */
+.worksheets {
+    margin-top: 50px;
+    background-color: #ecf0f1;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px dashed #bdc3c7;
+}
+
+.worksheet {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.worksheet h3 {
+    color: #d35400;
+    border-bottom: 2px solid #f39c12;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+.worksheet input[type="text"],
+.worksheet input[type="date"],
+.worksheet textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* padding을 width에 포함 */
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.95em;
+}
+
+.worksheet textarea {
+    resize: vertical; /* 수직으로만 크기 조절 가능 */
+    min-height: 60px;
+}
+
+.worksheet label {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.worksheet .image-placeholder {
+    text-align: center;
+    margin: 20px 0;
+    border: 1px dashed #95a5a6;
+    padding: 15px;
+    background-color: #f9f9f9;
+    color: #7f8c8d;
+    border-radius: 4px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    font-size: 0.9em;
+    border-top: 3px solid #3498db;
+}
+
+/* Horizontal Rule */
+hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 40px 0;
+}
